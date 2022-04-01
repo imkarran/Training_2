@@ -95,6 +95,9 @@
 }
 
 .Hero p{
+  display: block;
+  float: middle;
+  text-align: left;
   color: #ffffff;
   width: 21rem;
   height: 1rem;
