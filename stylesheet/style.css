@@ -8,7 +8,7 @@
 .topnav {
   background-color: #243a46;
   overflow: hidden;
-  gi
+
   /* Sticky positioning of NAV BAR */
   position: sticky;
   top: 0;
@@ -53,31 +53,34 @@
   vertical-align: middle;
   font-family: 'Montserrat';
   font-size: 300%;
-  font-weight: 200;
+  font-weight: 200%;
 
 }
 
 .cover-item {
   position: relative;
   margin: none;
-  width: 100%;
-  height: 20%;
-  border: 3px solid #ffffff;
-  background-image: url(../images/netflix.jpeg);
+  padding-left: 20%;
+  height: 40%;
+  background-color: #15191f;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
 }
 
+.container-img {
+ margin-block: 40;
+
+}
 
 
 
 /* BACKGROUND GRID*/
 .Hero {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 0.5fr 0.5fr;
-  height: 35rem;
+  grid-template-columns: 2fr 2fr ;
+  grid-template-rows: 2fr 2fr;
+  height: 70vh;
   background-color: #15191f;
   overflow-x: hidden;
   position: relative;
@@ -96,49 +99,51 @@
   font-family: 'Franklin Gothic Medium', sans-serif;
 }
 
-.Hero p{
+
+
+
+.paragraph p{
   display: block;
   float: middle;
   text-align: left;
   color: #ffffff;
-  width: 21rem;
-  height: 1rem;
+  width: 80%;
+
   position: relative;
   left: 25px;
   bottom: -90px;
+  max-width: 100%;
+  max-height: 100%;
 
-} 
+}
+
+
 
 .grid-item-1 {
   grid-area: H1;
-  border: 2px;
-  border-style: solid;
-  border-color: white;
+
 }
 
 
 .grid-item-2 {
   grid-area: H2;
-  border: 2px;
-  border-style: solid;
-  border-color: white;
+
+ 
 }
 
 
 
 .grid-item-3 {
   grid-area: H3;
-  border: 2px;
-  border-style: solid;
-  border-color: white;
+ 
 }
 
 
 .grid-item-4 {
   grid-area: H4;
-  border: 2px;
+  /* border: 2px;
   border-style: solid;
-  border-color: white;
+  border-color: white; */
 }
 
 
@@ -152,9 +157,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
-}
+} 
 
-
+/* 
 .secondpage {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -162,10 +167,10 @@
   height: 100fr;
   background-color: #e2a1a7;
   overflow-x: hidden;
-  position: relative;
+  position: relative; */
 }
 
-
+/* 
 .split p{
   padding-top: 30px;
   padding-left: 60px;
@@ -177,19 +182,50 @@
   padding-left: 60px;
 }
 
+ */
 
-
-.secondpage{
+/* .secondpage{
 
   background-image: url(../images/netflix-logo.png);
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: right; 
   background-position: 90%;
-}
+} */
+
+
+
 
 .container {
   margin-inline: auto;
-  width: 100%;  
+  width: 100%;
+}
+
+
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.flexbox-item {
+  width: 500px;
+  margin: 05px;
+  padding: 10px;
+  /* border: 3px solid saddlebrown;
+  background-color: #e2a1a7; */
+}
+
+
+
+.flexbox-item-1 {
+  min-height: 100px;
+}
+
+.flexbox-item-2 {
+  width: 300px;
+  margin: 05px;
+  padding: 10px;
 }
 
