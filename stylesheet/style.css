@@ -57,21 +57,17 @@
 
 }
 
-.cover-item {
+.container-img {
   position: relative;
-  margin: none;
-  padding-left: 20%;
   height: 40%;
   background-color: #15191f;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; 
 }
 
-.container-img {
- margin-block: 40;
-
+.cover-item {
+  
 }
+
 
 
 
@@ -81,6 +77,8 @@
   grid-template-columns: 2fr 2fr ;
   grid-template-rows: 2fr 2fr;
   height: 70vh;
+
+  padding: 50px 130px 50px 130px;
   background-color: #15191f;
   overflow-x: hidden;
   position: relative;
@@ -98,6 +96,8 @@
   margin-top: 40px;
   font-family: 'Franklin Gothic Medium', sans-serif;
 }
+
+
 
 
 
@@ -204,15 +204,15 @@
 
 .flexbox-container {
   display: flex;
-  justify-content: center;
+ 
 }
 
 
 
 .flexbox-item {
-  width: 500px;
+  width: 100%;
   margin: 05px;
-  padding: 10px;
+  padding: 60px 10px 100px 40px;
   /* border: 3px solid saddlebrown;
   background-color: #e2a1a7; */
 }
@@ -220,12 +220,46 @@
 
 
 .flexbox-item-1 {
-  min-height: 100px;
+  min-height: 80px;
 }
 
+
+
 .flexbox-item-2 {
-  width: 300px;
-  margin: 05px;
+  width: 40%;
+  margin: 5px;
   padding: 10px;
 }
 
+
+.flexbox-item-2 img {
+  height: 40%;
+  padding: 40px 10px 10px 80px;
+}
+
+
+
+.rendom01 {
+  background-color: aqua;
+}
+
+@media (min-width: 300px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+
+
+
+@media (min-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 800px) {
+  p {
+    font-size: 20px;
+  }
+}
